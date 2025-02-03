@@ -6,3 +6,10 @@ inteligen
 stamina
 inventory:
 Prsino layout:
+Cell
+Courtyard;
+Basketball
+Benchpress
+Library
+Cafetiria
+Shower
