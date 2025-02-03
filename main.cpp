@@ -1,4 +1,4 @@
-include <iostream>
+#include <iostream>
 #include <string>
 using namespace std;
 
@@ -7,47 +7,47 @@ class Place {
 public:
     // Constructor
     Place() {
-        cout << "You're in the ";
+        cout << "You're in the Cell" << endl;
     }
 
     // Member functions for different places
     void Cell() {
-        cout << "Cell" << endl;
+        cout << "You're in the Cell" << endl;
     }
 
     void Hub() {
-        cout << "Hub" << endl;
+        cout << "You're in the Hub" << endl;
     }
 
     void Shower() {
-        cout << "Shower" << endl;
+        cout << "You're in the Shower" << endl;
     }
 
     void Cafeteria() {
-        cout << "Cafeteria" << endl;
+        cout << "You're in the Cafeteria" << endl;
     }
 
     void Library() {
-        cout << "Library" << endl;
+        cout << "You're in the Library" << endl;
     }
 
     void Courtyard() {
-        cout << "Courtyard" << endl;
+        cout << "You're in the Courtyard" << endl;
     }
 
     void Basketball() {
-        cout << "Basketball" << endl;
+        cout << "You're in the Basketball" << endl;
     }
 
     void Benchpress() {
-        cout << "Benchpress" << endl;
+        cout << "You're in the Benchpress" << endl;
     }
 };
 
 int main() {
     string place;
     // Create an object of the class Place
-    Place myplace;  // Calls the constructor and prints "You're in the "
+    Place myplace;  // Calls the constructor and prints "You're in the Cell"
 
     cout << "Where do you want to go?" << endl;
     cout << "[Cell/Hub/Shower/Cafeteria/Library/Courtyard/Basketball/Benchpress]: ";
