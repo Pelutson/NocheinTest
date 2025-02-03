@@ -12,6 +12,6 @@ using namespace std;
 
 int main()
 {
-cin >> name;
+
 cout << "halltffo" << endl;
 }
