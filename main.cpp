@@ -4,15 +4,15 @@ using namespace std;
 
 
 //Variables
-string cell;
-string hub;
-string coutyard;
-string Cafeteria;
-string shower;
-string library;
+
+
+string name;
+
+
+
 
 int main()
 {
 
-cout << "halltffo" << endl;
+cout << "Guard: What is your name" << endl;
 }
