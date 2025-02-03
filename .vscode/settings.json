@@ -1,6 +1,7 @@
 {
     "cmake.options.statusBarVisibility": "visible",
     "files.associations": {
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "iostream": "cpp"
     }
 }
