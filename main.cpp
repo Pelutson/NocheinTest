@@ -1,7 +1,11 @@
+
+//#include "cell.cpp"
 #include <iostream>
 #include <string>
 using namespace std;
+void hund();
 
+<<<<<<< Updated upstream
 // Class Definition
 class Place {
 public:
@@ -76,3 +80,10 @@ int main() {
 
     return 0;
 }
+=======
+int main()
+{
+    cout << "Test1";
+    hund();
+}
+>>>>>>> Stashed changes
