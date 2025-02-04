@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-void hund();
+void Cell();
 
 <<<<<<< Updated upstream
 // Class Definition
@@ -84,6 +84,11 @@ int main() {
 int main()
 {
     cout << "Test1";
+<<<<<<< Updated upstream
     hund();
+}
+>>>>>>> Stashed changes
+=======
+    Cell();
 }
 >>>>>>> Stashed changes
