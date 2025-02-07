@@ -3,7 +3,8 @@
 using namespace std;
 #include <unistd.h>
 
-//Variabels   
+//Variabels  
+int Stats[] =  {0,0,0,0,0}; // 1. Value Gayomenter  2.///
 string playerName;
 int decicionPolice;
 int gayOmeter;    //If 100% yourturn Gay
@@ -14,6 +15,7 @@ void Cell()
 {
     cout << "Guard: is your Name?: "<< endl;
     cin >> playerName;
+    
     cout << playerName << ": My name is " << playerName << endl;
     cout << "Guard: What a dumb name"<< endl;
 
@@ -30,12 +32,13 @@ void Cell()
         case 2:
 
             cout << "The guard was stundt when he saw your Willy Wonker and toucht it (You liked it) \n \n   --The probalility that you turn gay increased by 10%" << endl;
-            gayOmeter = gayOmeter + 10;
-            cout <<"The probability that you turn gay are:" << gayOmeter;
+            Stats[0]=330;
+            cout <<"The probability that you turn gay are:" << Stats[0];
             break;
+        
         case 3:
         
-            cout << "The guard startet lauging and punshed in you balls (Now you are steril)" << endl;
+            cout << "\nThe guard startet lauging and punshed in you balls (Now you are steril)" << endl;
             break;
 
 
@@ -49,8 +52,8 @@ void Cell()
         case 1:
             sleep(1);
             cout << "The Dildo looks used, but you dondt care about that. (You liked putting it in your ass)\n --The probability that you turn gay increased by 10%" << endl;
-            gayOmeter = gayOmeter + 10;
-            cout <<"The probability that you turn gay are:" << gayOmeter;
+            Stats[0] = Stats[0] + 10;
+            cout <<"The probability that you turn gay are:" << Stats[0];
             break;
     }
 
